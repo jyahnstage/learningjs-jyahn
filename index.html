@@ -13,20 +13,21 @@
         <span></span>
 </div>
 <h2 id="clock">00:00:00</h2>
-<form>
-<input required type="text" placeholder="what is your name?" />
-</form>
-
-<h1 class="hidden" id="hello"></h1>
-
-<form id="todo-form">
-    <input required type="text" placeholder="write a To Do and press Enter" />
-</form>
-<ul id="todo-list"></ul>
-<div id="quote">
-    <span></span>
-    <span></span>
+<div class="loginbox">
+    <form id="login-form" class="hidden">
+        <input required class=box type="text" placeholder="what is your name?" />
+        <input class=btn type="submit" value="Log In"/>
+        </form>
+        <h1 id="hello" class="hidden"></h1>
 </div>
+
+<div class="todobox">
+<form id="todo-form">
+    <input class=longbox required type="text" placeholder="Write a To Do and press Enter" />
+</form>
+</div>
+<ul id="todo-list"></ul>
+
 
 <div id="quote">
     <span></span>
