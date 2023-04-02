@@ -10,8 +10,8 @@ function onGeoOk(position) {
     .then(data => {
         const weatherBox = document.querySelector("#weather span:first-child");
         const cityBox = document.querySelector("#weather span:last-child");
-        weatherBox.innerText = `지역: ${data.name}`;
-        cityBox.innerText = `날씨: ${data.weather[0].main} 기온: ${data.main.temp}ºC`;
+        weatherBox.innerText = `지역: ${data.name}   `;
+        cityBox.innerText = `날씨: ${data.weather[0].main}    기온: ${data.main.temp}ºC`;
     
     });
 }
