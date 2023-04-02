@@ -33,7 +33,6 @@ function handleToDoSubmit(event) {
     toDos.push(newTodo);
     paintToDo(newTodo);
     saveToDos();
-
 }
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
